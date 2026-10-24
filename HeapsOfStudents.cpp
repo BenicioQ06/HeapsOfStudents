@@ -2,8 +2,7 @@
 #include <string>
 
 class Address {
-private:
-
+	private:
     std::string street;
     std::string city;
     std::string state;
@@ -11,7 +10,7 @@ private:
 
 public:
     
-    Address() {
+Address() {
         street = "";
         city = "";
         state = "";
@@ -89,4 +88,3 @@ int main() {
     testDate();
 
     return 0;
-}
